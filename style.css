@@ -1,0 +1,470 @@
+.body{
+    margin: 0;
+    padding:0;
+}
+.nav-item:hover{
+  text-decoration: underline aqua;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #212529;
+    color: white;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 29px;
+}
+span{
+    color: aqua;
+}
+.button-container button{
+    background-color: aqua;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+   border:0px;
+   height: 43px;
+   width: 147%;
+   font-weight: 600;
+}
+.about{
+    flex: 1;
+    background-color: #212529;
+    height: 70vh;
+    overflow: hidden;
+}
+.about h1{
+    color: aqua;
+}
+.about p{
+    font-size: 20px;
+    top:12px;
+    line-height: 2rem;
+    color: aliceblue;
+}
+.resume{
+    background-color: #212529;
+    height: 115vh;
+    overflow: hidden;
+}
+.resume h3{
+    color: aqua;
+    padding-left: 12px;
+    padding-top: 12px; 
+}
+.resume h1{
+    color: aqua;
+}
+.resume p, h2{
+    color: aliceblue;
+    padding-left: 12px;
+    max-width: 600px;
+}
+.resume h5{
+    color: #ddddddc7;
+    padding-left: 12px;
+    max-width: 600px;
+}
+.Mern{
+    border:1px solid black;
+    background-color: #212529;
+    border-radius: 12px;
+    margin-left: 12px;
+    height: 260px;
+}
+
+.Al-tools{
+    border:1px solid black;
+    background-color: #212529;
+    border-radius: 12px;
+    margin-right: 12px;
+     height: 260px;
+}
+.Secretary{
+    border:1px solid black;
+    background-color: #212529;
+    border-radius: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    height: 228px;
+}
+.plus-two{
+    border:1px solid black;
+    background-color: #212529;
+    border-radius: 12px;
+    margin-right: 12px;
+    margin-top: 17px;
+    height: 219px;
+}
+.service{
+    background-color: #212529;
+    height: 100vh;
+    overflow: hidden;
+}
+.service h1{
+    color: aqua;
+}
+.desing{
+    border: 1px solid black;
+    background-color: #212529;
+    margin-left: 139px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    border-radius: 15px;
+    width: 70%;
+}
+.solve{
+    border: 1px solid black;
+    background-color: #212529;
+    margin-left: 139px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    margin-top: 23px;
+    border-radius: 15px;
+    width: 70%;
+}
+.tools{
+    border: 1px solid black;
+    background-color: #212529;
+    margin-right: 139px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    border-radius: 15px;
+    width: 70%;
+    color: aqua;
+}
+.code{
+    border: 1px solid black;
+   background-color: #212529;
+    margin-right: 139px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+    margin-top: 23px;
+    border-radius: 15px;
+    width: 70%;
+}
+.service i{
+    font-size: 72px;
+    position: relative;
+    right: 23%;
+}
+.code i{
+    position: relative;
+    right: 39%;
+}
+.solve i{
+  position: relative;
+  right: 34%;
+}
+.desing:hover,
+.solve:hover,
+.tools:hover,
+.code:hover{
+    background-color: aqua;
+}
+.desing:hover h2,
+.code:hover h2,
+.solve:hover h2,
+.tools:hover h2{
+   color: black;
+}
+.desing i,
+.code i,
+.solve i,
+.tools i{
+color: aqua;
+}
+.desing:hover i,
+.code:hover i,
+.solve:hover i,
+.tools:hover i{
+    color: aliceblue;
+}
+
+
+.skill{
+    background-color: #212529;
+    height: 90vh;
+    margin-top: -48px;
+    overflow:hidden;
+}
+.skill h1{
+    color: aqua;
+   padding-top: 50px;
+}
+.skill h2{
+    font-weight: 400;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: aliceblue;
+}
+.skill-main{
+    color: aliceblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:50px;
+    grid-row-gap:20px;
+}
+.skill-main .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.skill-bar .info .percent{
+    font-weight: bold;
+   margin: 0 -160px;
+}
+.skill-bar .bar{
+  width:150%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0,0,0,0.199);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.skill-bar .bar .html{
+    width: 90%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0;
+    }100%{
+        width: 90%;
+    }
+}
+.skill-bar .bar .css{
+    width: 87%;
+    animation: css 3s;
+}
+@keyframes css{
+    0%{
+        width: 0;
+    }100%{
+        width: 87%;
+    }
+}
+.skill-bar .bar .boostrap{
+    width: 80%;
+    animation: boostrap 3s;
+}
+@keyframes boostrap{
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+.skill-bar .bar .javascript{
+    width: 50%;
+    animation: javascript 3s;
+}
+@keyframes javascript{
+    0%{
+        width: 0;
+    }100%{
+        width: 50%;
+    }
+}
+.skill-bar .bar .java{
+    width: 85%;
+    animation:java  3s;
+}
+@keyframes java{
+    0%{
+        width: 0;
+    }100%{
+        width: 85%;
+    }
+}
+.skill-bar .bar .design-canva{
+    width: 70%;
+    animation: desing 3s;
+}
+@keyframes desing{
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+}
+
+.Project{
+    background-color: #212529;
+    height: 150vh;
+    overflow: hidden;
+    margin-top:-68px ;
+}
+.Project  h1{
+    color: aqua;
+}
+
+.friend img{
+    padding-left: 23px;
+    max-width:96%;
+}
+.ritual img{
+    max-width: 96%;
+}
+.done img{
+    max-width: 56%;
+}
+ .contact{
+    background-color: #212529;
+    color: aqua;
+    overflow: hidden;
+    height: 150vh;
+ }
+ form input{
+   max-width:80% ;
+ }
+ .contact form{
+    padding-left: 103px;
+ }
+ #inputMessage3{
+    height: 20vh;
+    max-width: 80%;
+ }
+ .contact h3{
+   color: aqua;
+ }
+ 
+.contact i{
+    font-size: 19px;
+}
+.col-form-label{
+    text-align: left;
+   }
+ 
+
+@media(max-width:998px){
+    .row{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about{
+        height: 120vh;
+    }
+    .resume{
+       
+        height: 235vh;
+    }
+    .Mern{
+        height: 320px;
+       margin-right:12px;
+    }
+    .Secretary{
+        height: 280px;
+        margin-right: 12px;
+    }
+    .Al-tools{
+        height: 300px;
+        margin-left: 12px;
+    }
+    .plus-two{
+        margin-left: 12px;
+    }
+    .service{
+        height: 180vh;
+    }
+    .tools{
+        margin-left: 57px;
+    }
+    .code{
+        margin-left: 57px;
+    }
+    .solve{
+        position: relative;
+        right: 80px;
+    }
+    .desing{
+        position: relative;
+        right: 80px;
+    }
+    .skill{
+        height: 140vh;
+    }
+    .skill-main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .skill-bar .info .percent{
+        margin: 0 -194px;
+    }
+
+    .link-friend{
+        left: 6px;
+       }
+       .link-ritual{
+        left: 6px;
+       }
+      .project{
+        position: relative;
+        height: 230vh;
+       
+      }
+      .friend{
+        position: relative;
+        right: 23px;
+      }
+      .ritual{
+        position: relative;
+        max-width: 190%;
+      }
+      .contact{
+        height: 198vh;
+      }
+       .footer{
+        padding-right: 42px;
+       }
+}
+@media(max-width:766px){
+    .skill-bar .bar{
+        width: 70%;
+    }
+    .skill-bar .info .percent{
+        margin: 0 209px;
+    }
+    .skill{
+        height: 130vh;
+    }
+    
+    .friend{
+        position: relative;
+        right:12px
+    }
+   .done img{
+   max-width: 96%;
+   }
+   .contact{
+    height: 200vh;
+   }
+   .contact h1{
+    padding-top: 64px;
+   }
+ .footer{
+    padding-right: 43px;
+ }
+}
